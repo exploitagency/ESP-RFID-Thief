@@ -7,6 +7,8 @@ Hardware by Corey Harding
 MIT License  
 Based off the work of Fran Brown from Bishop Fox  
 Ported to the ESP12S with a web interface by Corey Harding  
+# Video Demo   
+[![Video Demo](https://raw.githubusercontent.com/exploitagency/ESP-RFID-Thief/master/Images/Assembled.jpg)](https://www.youtube.com/embed/waJEOq1VhRw)  
 # Instructions  
 Gather parts  
 -See BOM under Board Folder  
@@ -24,7 +26,7 @@ Make sure it outputs data in the Wiegand format
 -Connect D1 on device to D1 on reader  
 -Connect + on device to + on reader  
 -Connect - on device to - on reader  
--Connect ~7-18V battery into the same + and -  
+-Connect ~7-18V battery into the same + and -(only if building a portable unit, do not add a battery if implanting device into an existing installation)  
 Configure settings  
 -See Below  
   
@@ -114,6 +116,18 @@ Password: "hacktheplanet"
 Select "Browse" choose the new firmware to be uploaded and then click "Upgrade".  
   
 You will need to manually reset the device upon the browser alerting you that the upgrade was successful.  
+  
+-----  
+Jumpers  
+-----  
+J1: Bridge to reset the board(your FTDI doesn't have a reset button?)  
+J2: Cut the trace to disable DTR pin after programming then use it as an additional IO(continue updating firmware via web interface)  
+  
+-----  
+Restore Default Settings  
+-----  
+Option 1: Go to settings under web interface and choose restore default configuration.  
+Option 2: With power applied to the device bridge J1 twice within 3 seconds waiting a second between each "press".  
   
 -----  
 Licensing Information  
