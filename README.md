@@ -21,7 +21,7 @@ Program board using FTDI
 `python esptool.py --port=/dev/ttyUSB1 --baud 115000 write_flash 0x00000 espthief.ino.generic.bin --flash_size 32m`  
 -Windows: https://github.com/nodemcu/nodemcu-flasher  
 Install into RFID reader  
-Make sure it outputs data in the Wiegand format
+-Make sure the reader outputs data in the Wiegand format  
 -Connect D0 on device to D0 on reader  
 -Connect D1 on device to D1 on reader  
 -Connect + on device to + on reader  
