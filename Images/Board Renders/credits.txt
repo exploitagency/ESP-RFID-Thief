@@ -1,3 +1,3 @@
-board-front.png and board-back.png are renders taken from http://pcbs.io
+Board renders are taken from the pcb preview on http://pcbs.io
 I highly recommend this manufacturer for small runs of boards.
 Their price is hard to beat and production times are reasonable.
