@@ -45,6 +45,10 @@
 #define DRD_ADDRESS 0
 DoubleResetDetector drd(DRD_TIMEOUT, DRD_ADDRESS);
 
+#define LED_BUILTIN 2
+#define DATA0 14
+#define DATA1 12
+
 // Port for web server
 ESP8266WebServer server(80);
 ESP8266WebServer httpServer(1337);
@@ -614,18 +618,21 @@ void setup() {
   }
 
 //Start RFID Reader
-
+  pinMode(LED_BUILTIN, OUTPUT);  // LED
   if (ledenabled==1){
-    pinMode(2, OUTPUT);  // LED
+    digitalWrite(LED_BUILTIN, LOW);
   }
-  pinMode(14, INPUT);     // DATA0 (INT0)
-  pinMode(12, INPUT);     // DATA1 (INT1)
+  else{
+    digitalWrite(LED_BUILTIN, HIGH);
+  }
+  pinMode(DATA0, INPUT);     // DATA0 (INT0)
+  pinMode(DATA1, INPUT);     // DATA1 (INT1)
   
   //Serial.println("RFID Reader Started");
   
   // binds the ISR functions to the falling edge of INTO and INT1
-  attachInterrupt(14, ISR_INT0, FALLING);  
-  attachInterrupt(12, ISR_INT1, FALLING);
+  attachInterrupt(DATA0, ISR_INT0, FALLING);  
+  attachInterrupt(DATA1, ISR_INT1, FALLING);
 
   weigand_counter = WEIGAND_WAIT_TIME;
 }
