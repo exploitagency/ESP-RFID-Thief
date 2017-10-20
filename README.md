@@ -26,7 +26,7 @@ Install into RFID reader
 -Connect D1 on device to D1 on reader  
 -Connect + on device to + on reader  
 -Connect - on device to - on reader  
--Connect ~7-18V battery into the same + and -(only if building a portable unit, do not add a battery if implanting device into an existing installation)  
+-Connect 4.5-18V battery into the same + and -(only if building a portable unit, do not add a battery if implanting device into an existing installation)  
 Configure settings  
 -See Below  
   
