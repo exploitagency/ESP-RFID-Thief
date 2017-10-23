@@ -14,6 +14,7 @@ Gather parts
 -See BOM under Board Folder  
 Assemble board  
 -Simple surface mount assembly when using low temp solder paste and a hot air rework station.  
+-I suggest leaving the programming header unpopulated and using pogo pads or clips to program.  
 Program board using FTDI  
 -FTDI must supply 3V3 and have 6 pins(DTR,RXD,TXD,VC,CTS,GND) and a reset button  
 -Be sure to press the reset button on the FTDI or hit the reset jumper on the ESP-RFID-Thief board to start flashing  

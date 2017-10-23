@@ -1,0 +1,29 @@
+Bill of Materials: ESP-RFID-Thief
+
+Assembly List
+-----
+
+Label           Part Type                       Properties
+
+Tool            Punch Down Tool                 PLSTC INSERT TOOL LOW/MED PROD; Mfr. #: 069176702001000; Mouser Part #: 581-069176702001000
+
+24AWG IDC Punch Down
+(D0),(D1)       IDC Terminal - 2 way            Desc.: 2 WAY WIRE TO BD 24 AWG STRANDED; Mfr. #: 009176002032006; Mouser Part #: 581-009176002032006
+(+),(-)         IDC Terminal - 2 way            Desc.: 2 WAY WIRE TO BD 24 AWG STRANDED; Mfr. #: 009176002032006; Mouser Part #: 581-009176002032006
+or
+18AWG IDC Punch Down Block
+(D0),(D1)       IDC Terminal - 2 way            Desc.: 2 WAY WIRE TO BD 18 AWG STRANDED ; Mfr. #: 009176002001006; Mouser Part #: 581-009176002001006
+(+),(-)         IDC Terminal - 2 way            Desc.: 2 WAY WIRE TO BD 18 AWG STRANDED ; Mfr. #: 009176002001006; Mouser Part #: 581-009176002001006
+
+ESP-12S         ESP8266 WiFi Module             variant variant 12S; Mouser Part # 485-2491
+LM1117          Voltage Regulator LM1117        voltage 3.3V out; current 800mA; package sot223; Mouser Part # 926-LM1117MPX3.3NOPB
+HEADER          Generic header - 6 pins.        row single; pins 6; package THT; pin spacing 0.1in (2.54mm)
+C1              100nF Capacitor                 package 0805; variant 0805; part # 100nF
+C2              100uF Capacitor                 package 1210 (3528 metric); 100uF; part # NOJB107M006RWJ
+C3              100uF Capacitor                 package 1210 (3528 metric); 100uF; part # NOJB107M006RWJ
+R1              10kΩ Resistor                   tolerance ±5%; package 0805 [SMD]; resistance 10kΩ
+R2              10kΩ Resistor                   tolerance ±5%; package 0805 [SMD]; resistance 10kΩ
+R3              10kΩ Resistor                   tolerance ±5%; package 0805 [SMD]; resistance 10kΩ
+R4              10kΩ Resistor                   tolerance ±5%; package 0805 [SMD]; resistance 10kΩ
+R5              10kΩ Resistor                   tolerance ±5%; package 0805 [SMD]; resistance 10kΩ
+R6              10kΩ Resistor                   tolerance ±5%; package 0805 [SMD]; resistance 10kΩ
