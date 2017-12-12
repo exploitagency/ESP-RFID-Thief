@@ -1,5 +1,8 @@
 # ESP-RFID-Thief
-The ESP-RFID-Thief is a port of the Tastic RFID Thief(Originally created by Fran Brown from Bishop Fox) to the ESP12S chip. One of the benefits the ESP-RFID-Thief has over the original Tastic RFID Thief is the addition of WiFi and a web interface to review captured credentials. The on board flash also eliminates the need for an SD card. The device can be combined with a RFID reader that outputs Wiegand data along with a battery pack to create a standalone RFID reader that saves all scanned cards to a log file accessible through the web interface.  The HID MaxiProx 5375 running on 12V(8xAA Batteries) can capture cards from up to two feet away when combined with this device. This device can also be planted inside existing RFID reader installations to capture card data.  
+**Hardware and software has been reworked and will be sold as the ESP-RFID-Tool by April Brother.** 
+**See www.rfid-tool.com for more info**  
+  
+The ESP-RFID-Thief is a port of the Tastic RFID Thief(Originally created by Fran Brown from Bishop Fox) to the ESP12S chip. One of the benefits the ESP-RFID-Thief has over the original Tastic RFID Thief is the addition of WiFi and a web interface to review captured credentials. The on board flash also eliminates the need for an SD card. The device can be combined with a RFID reader that outputs Wiegand data along with a battery pack to create a standalone RFID reader that saves all scanned cards to a log file accessible through the web interface.  The HID MaxiProx 5375 running on 12V(8xAA Batteries) can capture cards from up to two feet away when combined with this device. This device can also be planted inside existing RFID reader installations to capture card data.  
 # Hardware License
 Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)  
 Hardware by Corey Harding  
